@@ -1,0 +1,31 @@
+.side-bar{
+    width: 80px;
+  
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #4D85F1;
+}
+
+.sidebar-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sidebar-icon-logo{
+    padding-top: 18px;
+}
+
+.sidebar-icons{
+    padding-top: 32px;
+    fill: lightcoral;
+}
+

@@ -1,0 +1,160 @@
+.editprofile-div{
+    width: 100vw;
+}
+
+.upper-right{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 35px;
+    margin-top: 5px;
+    
+}
+
+.editprofile-main{
+    display: flex;
+    
+    margin-left: 90px;
+    margin-right: 230px;
+    
+    flex-direction: column;
+}
+
+.editprofile-header{
+    display: flex;
+    justify-content: space-between;
+}
+.editprofile-header h1{
+    font-weight: 600;
+}
+
+.name-form{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.first-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.last-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.email-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.cellno-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.form-valid-checks{
+    float: right;
+    position: relative;
+    margin-top: -40px;
+    margin-right: 9px;
+}
+
+
+.password-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.custom-password .p-inputtext {
+    width: 51.8vw ;
+    padding: 10px 10px ;
+}
+
+.custom-password .p-icon{
+    float: right;
+    margin-top: -27px;
+    position: relative;
+    margin-right: 11px;
+    
+}
+
+.college-date-forms{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.college-start-date{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.college-end-date{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.date-icon{
+    
+}
+
+.resume-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-labels{
+    font-weight: 500;
+}
+
+.forms{
+    width: 51.8vw;
+    padding: 10px 10px;
+}
+
+.small-forms{
+    width: 22vw;
+    padding: 10px 10px;
+}
+
+.buttons{
+    display: flex;
+}
+
+#editpage-cancel-btn{
+    cursor: pointer;
+    color: #0889FF;
+    font-size: 17px;
+    font-style: normal;
+    line-height: normal;
+    border-radius: 5px;
+    border: 2px solid #08B5FF;
+    background: #FFF;
+    padding: 8px 33px;
+    margin-right: 30px;
+}
+
+#editpage-save-btn{
+    cursor: pointer;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    line-height: normal;
+    border-radius: 5px;
+    border: 2px solid #08B5FF;
+    background-color: #0889FF;
+    padding: 8px 33px;
+    margin-right: 30px;
+}

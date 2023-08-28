@@ -1,0 +1,34 @@
+.sidebar-drawer{
+    margin-left: 45px;
+    width: 246px;
+   
+    border-right: 1px solid black;
+}
+
+.sd-header{
+    display: flex;
+    align-items: baseline;
+    padding-top: 30px;
+}
+
+.list-options{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: -9px;
+}
+
+.list-options .options{
+    display: flex;
+    padding-top: 48px;
+}
+
+.sd-icons{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.options-label{
+    font-size: 18px;
+}
